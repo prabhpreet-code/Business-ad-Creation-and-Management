@@ -22,6 +22,9 @@ Open MongoDB Compass and create & update .env
 
     $ npm run dev
 
+## Demo
+https://drive.google.com/file/d/1wTKpQlxDKlqs55OIMS8DJbAPIzCG9xWE/view
+
 ## Overview
 
 Our platform facilitates the creation and management of advertisements tailored to users' demographics. Users encounter a homepage showcasing diverse advertisements, personalized through reverse geo-coding. To engage with ad creation and management features, users must register and subsequently log in to access their dedicated dashboard.
@@ -50,9 +53,6 @@ Our platform facilitates the creation and management of advertisements tailored 
 ## Conclusion
 
 Our platform provides a comprehensive solution for business ad creation and management. From personalized advertisement delivery to robust campaign analytics, we empower advertisers with the tools and insights needed to drive impactful marketing initiatives.
-
-## Demo
-https://drive.google.com/file/d/1wTKpQlxDKlqs55OIMS8DJbAPIzCG9xWE/view
 
 
 ## Backend
