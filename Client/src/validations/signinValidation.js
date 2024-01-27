@@ -29,5 +29,4 @@ export const signinValidation = z.object({
     .nonempty({
       message: "Phone number cannot be empty.",
     }),
- 
 });

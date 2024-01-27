@@ -3,7 +3,7 @@ export function geoLocation(success,errors,options){
        navigator.permissions
          .query({ name: "geolocation" })
          .then(function (result) {
-           console.log(result);
+  
            if (result.state === "granted") {
              //If granted then you can directly call your function here
              navigator.geolocation.getCurrentPosition(success, errors, options);

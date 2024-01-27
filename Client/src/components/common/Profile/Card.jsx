@@ -26,10 +26,10 @@ const Card = ({ post, carousel }) => {
             <p className="mt-4 w-full text-md mb-4 leading-normal text-gray-600">
               {post.description}
             </p>
-            <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
+            <h2 className="mb-2 text-lg font-semibold text-gray-900 ">
               Target Audience:
             </h2>
-            <ul className="max-w-md space-y-1 mb-4 text-gray-500 list-inside dark:text-gray-400">
+            <ul className="max-w-md space-y-1 mb-4 text-gray-500 list-inside ">
               {post.target_audience.map((element) => (
                 <li className="flex items-center">
                   <svg
@@ -45,10 +45,10 @@ const Card = ({ post, carousel }) => {
                 </li>
               ))}
             </ul>
-            <h2 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
+            <h2 className="mb-2 text-lg font-semibold text-gray-900 ">
               Scheduling Information:
             </h2>
-            <ul className="max-w-md space-y-1 text-gray-500 list-inside dark:text-gray-400">
+            <ul className="max-w-md space-y-1 text-gray-500 list-inside ">
               <li className="flex items-center">
                 <svg
                   className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0"

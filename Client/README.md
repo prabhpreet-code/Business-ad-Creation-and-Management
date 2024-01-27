@@ -1,8 +1,8 @@
-# Documentation:
+# Advertisment Manager:
 
 ## Folder Structure
 
-- Api :Contains the routing route and sets up Axios for the whole application
+- services :Contains the routing route and sets up Axios for the whole application
 - assets: Contains the images provided including the fav-icon
 - ### Components
   - common: Keeps the components common with other components.

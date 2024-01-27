@@ -7,7 +7,6 @@ import Carousel from "../components/common/Home/Carousel";
 import "./../App.css";
 import { geoLocation } from "../utils/geoLocation";
 import { getLocationInfo } from "../utils/getLocationInfo";
-import fetchAllAds from "../services/fetchAllAds";
 import ProfileCards from "../components/common/Home/ProfileCards";
 
 export function Home() {
@@ -23,10 +22,6 @@ export function Home() {
   {/*Fetching the Country*/}
   const success = async (pos) => {
     var crd = pos.coords;
-    console.log("Your current position is:");
-    console.log(`Latitude : ${crd.latitude}`);
-    console.log(`Longitude: ${crd.longitude}`);
-    console.log(`More or less ${crd.accuracy} meters.`);
     const currentLocation = await getLocationInfo(crd.latitude, crd.longitude);
     setLocation(currentLocation);
   };
@@ -42,7 +37,7 @@ export function Home() {
   }, []);
 
   return (
-    <div className="w-full dark">
+    <div className=" flex flex-col w-[90vw] h-min:100vh">
       <Navbar />
       <HeroBanner />
       <Features />

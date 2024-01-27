@@ -4,7 +4,6 @@ import { useCookies } from "react-cookie";
 
 export const ProtectRoutes = () => {
   const [cookies] = useCookies([]);
-  console.log(cookies)
 
    return cookies?.token ? <Outlet /> : <Navigate to="/login" exact />;
  };

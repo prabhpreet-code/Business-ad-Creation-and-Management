@@ -8,13 +8,10 @@ const updateData = async (id, form, data) => {
       data.multimedia = hash;
     }
 
-    console.log(data);
-    console.log(id);
     const response = await axios.put(`/advertisement/${id}`, data, {
       withCredentials: true,
     });
-    console.log(response);
-    console.log(response.data);
+
     if (response.data.success === true) {
       return response.data;
     }

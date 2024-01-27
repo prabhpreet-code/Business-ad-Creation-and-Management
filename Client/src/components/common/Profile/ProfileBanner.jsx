@@ -1,15 +1,7 @@
-"use client";
-
 import React from "react";
-import { Menu, X } from "lucide-react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 export function ProfileBanner() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const navigate = useNavigate();
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   return (
     <div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroBanner = () => {
   return (
-    <div className="relative w-full bg-white" ref={comp}>
+    <div className="relative w-full bg-white">
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="flex flex-col justify-center px-4 py-12 md:py-16 lg:col-span-7 lg:gap-x-6 lg:px-6 lg:py-24 xl:col-span-6">
           <div className="mt-8 flex max-w-max items-center space-x-2 rounded-full bg-gray-100 p-1">
@@ -13,15 +13,15 @@ const HeroBanner = () => {
           </div>
           <h1
             id="#title-1"
-            className="mb-10 mt-10 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+            className="mb-10 mt-10 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
           >
             Regain{" "}
-            <mark className="px-2 text-white bg-black rounded dark:bg-blue-500">
+            <mark className="px-2 text-white bg-black rounded ">
               control
             </mark>{" "}
             over your Ads<span className="px-4 bg:none text-black">.</span>
           </h1>
-          <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+          <p className="text-lg font-normal text-gray-500 lg:text-xl ">
             Here at AdManager we let you in a role based scenario.
             <span className=" px-2 text-2xl  font-bold bg:none text-black">
               Everything

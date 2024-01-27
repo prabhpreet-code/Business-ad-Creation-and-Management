@@ -41,8 +41,8 @@ export default function Carousel({ location }) {
   };
   return (
     <div style={{ width: "95vw" }} className="flex relative justify-between">
-      <div className="px-10 w-[50vw] h-[40vh]">
-        <Slider className="w-[50vw] h-[60vw] " {...settings}>
+      <div className="px-10 w-[50vw]">
+        <Slider className="w-[50vw] " {...settings}>
           {posts?.map((post) => (
             <Card post={post} key={post.title} carousel={true} />
           ))}
@@ -51,15 +51,15 @@ export default function Carousel({ location }) {
       <div className="ml-16 px-10">
         <h1
           style={{ lineHeight: 1.43 }}
-          className="mb-4 text-4xl  font-extrabold  tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+          className="mb-4 text-4xl  font-extrabold  tracking-tight text-gray-900 md:text-5xl lg:text-6xl "
         >
            Explore  wide range of <br />
-          <span className="text-white mt-10 bg-black dark:text-blue-500">
+          <span className="text-white mt-10 bg-black ">
            AD's @
           </span>{" "}
           ADM.
         </h1>
-        <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+        <p className="text-lg font-normal text-gray-500 lg:text-xl ">
           Unlock Advertising Excellence: Your Campaigns, Your Creatives, Your
           Success " All at Your Fingertips with our Ad Mastery Dashboard!"
         </p>
