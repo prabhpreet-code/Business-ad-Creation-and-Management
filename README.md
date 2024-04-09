@@ -1,33 +1,14 @@
 # Business Ad Creation and Management
 
-## Install Node.js
-
-    $ git clone https://github.com/prabhpreet-code/Business-ad-Creation-and-Management.git
-    $ cd Server
-    $ npm install
-
-## Configure DB
-
-Open MongoDB Compass and create & update .env
-
-## Running the server project
-
-    $ nodemon server.js
-
-## Install Vite and React.js
-    $ cd Client
-    $ npm install
-
-## Running the client project
-
-    $ npm run dev
-
-## Demo
-https://drive.google.com/file/d/1wTKpQlxDKlqs55OIMS8DJbAPIzCG9xWE/view
-
 ## Overview
 
 Our platform facilitates the creation and management of advertisements tailored to users' demographics. Users encounter a homepage showcasing diverse advertisements, personalized through reverse geo-coding. To engage with ad creation and management features, users must register and subsequently log in to access their dedicated dashboard.
+
+## Demo👇
+https://github.com/prabhpreet-code/Business-ad-Creation-and-Management/assets/66708921/98eb3662-2700-4e31-aed0-993093082405
+
+
+
 
 ## Key Features
 
@@ -53,6 +34,28 @@ Our platform facilitates the creation and management of advertisements tailored 
 ## Conclusion
 
 Our platform provides a comprehensive solution for business ad creation and management. From personalized advertisement delivery to robust campaign analytics, we empower advertisers with the tools and insights needed to drive impactful marketing initiatives.
+
+## Install Node.js
+
+    $ git clone https://github.com/prabhpreet-code/Business-ad-Creation-and-Management.git
+    $ cd Server
+    $ npm install
+
+## Configure DB
+
+Open MongoDB Compass and create & update .env
+
+## Running the server project
+
+    $ nodemon server.js
+
+## Install Vite and React.js
+    $ cd Client
+    $ npm install
+
+## Running the client project
+
+    $ npm run dev
 
 
 ## Backend
